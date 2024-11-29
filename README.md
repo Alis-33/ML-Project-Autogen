@@ -12,12 +12,12 @@ How It Works
 
 Example Output
 
-def verify_prime(number):
-    if number <= 1:
-        return False
-    for i in range(2, int(number**0.5) + 1):
-        if number % i == 0:
+    def verify_prime(number):
+        if number <= 1:
             return False
-    return True
+        for i in range(2, int(number**0.5) + 1):
+            if number % i == 0:
+                return False
+        return True
 TERMINATE
 
